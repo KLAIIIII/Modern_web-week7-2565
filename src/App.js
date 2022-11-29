@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import './App.css'
+import HelloMessage from "./components/pages/HelloMessage";
+import FooterPage from "./components/partials/Footer";
+import HeaderPage from "./components/partials/Header";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+
+  return(
+    <>
+      <div className="App">
+        <HelloMessage name="Mark" />
+        <HelloMessage name="Woren" />
+        <HelloMessage name="Jeff" />
+        <FooterPage />
+        <HeaderPage />
+      </div>
+    </>
+    
+  )
 }
 
-export default App;
+export default App
