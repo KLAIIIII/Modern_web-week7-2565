@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css'
-import AboutPage from "./components/pages/about";
+import AboutPage from "./components/pages/About";
 import HelloMessage from "./components/pages/HelloMessage";
 import HomePage from "./components/pages/Home";
 import FooterPage from "./components/partials/Footer";

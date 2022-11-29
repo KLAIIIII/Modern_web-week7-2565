@@ -1,11 +1,11 @@
 import React from 'react'
 
 const AboutPage = () => {
-  return (
+    return(
     <div>
-      <h1>AboutPage</h1>
+        <h1>AboutPage</h1>
     </div>
-  )
+    )
 }
 
 export default AboutPage
